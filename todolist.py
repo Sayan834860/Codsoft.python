@@ -35,11 +35,11 @@ while True:
             new_Tasks =input("Enter the Tasks to add: ")
             Add_Tasks(Tasks,new_Tasks)
         elif choice =="3":
-            index=int(input("Enter the Task index to update: "))
+            index= int(input("Enter the Task index to update: "))
             Update_Tasks=input("Enter the update tasks: ")
             Update_Tasks(Tasks,index,Update_Tasks)
         elif choice =="4":
-            index=int(input("Enter the Task index to delete: "))
+            index= int(input("Enter the Task index to delete: "))
             Delete_Tasks=(Tasks,index,Delete_Tasks)
         elif choice =="5":
             print("Exiting....")
